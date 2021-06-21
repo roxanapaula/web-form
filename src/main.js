@@ -1,5 +1,12 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import Vuelidate from 'vuelidate';
+import App from './App.vue';
+import axios from 'axios';
+import VueAxios from 'vue-axios';
+
+Vue.use(Vuelidate);
+Vue.use(VueAxios, axios);
+
 
 Vue.config.productionTip = false
 
